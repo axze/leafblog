@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <a href="/login">Login</a>
+    {{#each data}}
+    <div>
+      <h2>{{data}}{{title}}</h2>
+      <p>{{data}}{{body}}</p>
+      <span>{{data}}{{tags}}</span>
+      <span>{{data}}{{owner}}</span>
+    </div>
+    {{/each}}
+  </body>
+</html>
